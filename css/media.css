@@ -42,6 +42,7 @@
         flex-direction: column;
         height: 100vh;
         justify-content: center;
+        z-index: 5;
         background: linear-gradient(93.22deg, #535252 0%, #201f1f 100%);
         font-size: 18px;
         left: 0;
@@ -75,16 +76,16 @@
         transition-delay: 0.3s;
     }
     /*----------------------------------------------------------------*/
-    .title span {
+    .title {
         font-size: 30px;
-    }
-    .load-icon {
-        padding: 10px;
-    }
-    .main__ellise {
-        margin-bottom: 70px;
     }
     .main__link, .btn-learn {
         width: 100%;
+    }
+    .header__logo {
+        font-size: 40px;
+    }
+    .main__loader {
+        margin-bottom: 80px;
     }
 }
